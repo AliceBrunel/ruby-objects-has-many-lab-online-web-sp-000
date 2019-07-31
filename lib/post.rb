@@ -22,5 +22,4 @@ class Post
     self.author ? self.author.name : nil
   end
   
-
 end
