@@ -22,7 +22,7 @@ class Post
     self.author ? self.author.name : nil
   end
   
-  def add_post_by_name(name)
+  def add_post_by_title(name)
     song = Song.new(name)
     song.artist = self
   end
