@@ -1,5 +1,5 @@
 class Post 
-  attr_accessor :title 
+  attr_accessor :title, :song
   
   @@all = []
   
@@ -10,6 +10,11 @@ class Post
   
   def self.all 
    @@all
+  end
+  
+  def add_post(post)
+    @songs << post
+    post.author = self
   end
   
   def author_name
