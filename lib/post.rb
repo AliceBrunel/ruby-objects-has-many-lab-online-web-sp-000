@@ -14,7 +14,7 @@ class Post
   end
   
   def add_post(post)
-    @songs << post
+    @posts << post
     post.author = self
   end
   
